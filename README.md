@@ -7,7 +7,7 @@ Resize Images, Keep Exif Data. Simple. The EXIF width and height attributes will
 ```bash
 # virtualenv .venv
 # source .venv/bin/activate
-# pip install requirements.txt
+# pip install -r requirements.txt
 ```
 
 ## Usage
