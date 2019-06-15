@@ -116,7 +116,7 @@ elif not create_dir and os.path.isfile(args.output):
         os.remove(args.output)
 
 if create_dir:
-    os.makedirs(args.output, exist_ok=False)
+    os.makedirs(args.output)
 
 pool = ThreadPool(processes=multiprocessing.cpu_count())
 
