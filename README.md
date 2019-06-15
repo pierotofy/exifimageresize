@@ -5,16 +5,16 @@ Resize Images, Keep Exif Data. Simple. The EXIF width and height attributes will
 ## Installation
 
 ```bash
-# virtualenv .venv
-# source .venv/bin/activate
-# pip install -r requirements.txt
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-# python resize.py -i images/ -o resized/ 25%
-# python resize.py -i images/1.JPG -o resized.JPG 2000
+python resize.py -i images/ -o resized/ 25%
+python resize.py -i images/1.JPG -o resized.JPG 2000
 ```
 
 ## License
